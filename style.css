@@ -4,6 +4,10 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 
+html, body {
+    overflow-x:hidden 
+} 
+
 .header{
     min-height: 900px;
     width: 100%;
@@ -282,9 +286,6 @@ nav .fa{
 }
 
 @media (max-width:900px){
-    *{
-        overflow-x: hidden;
-    }
     
     .nav-links ul li a{
         font-size: 13px;
