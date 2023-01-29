@@ -281,23 +281,32 @@ nav .fa{
     padding-bottom: 30px;
 }
 
-@media (max-width:600px){
+@media (max-width:900px){
+    
     .nav-links ul li a{
         font-size: 13px;
     }
     .text-box h1{
-        font-size: 60px;
+        font-size: 80px;
     }
     .dropbtn{
         font-size: 13px;
     }
 
     .more h1{
-        font-size: 60px;
+        font-size: 50px;
     }
     .more p{
         font-size: 20px;
     }
+
+    .more2 {
+        min-height: 100px;
+    }
+    .more {
+        min-height: 100px;
+    }
+
 
     .more2 h1{
         font-size: 60px;
@@ -313,10 +322,10 @@ nav .fa{
 
 
 @media(max-width: 800px){
+
     *{
         overflow-x: hidden;
     }
-
     .ye{
         display: block;
     }
