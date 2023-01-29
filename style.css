@@ -280,11 +280,6 @@ nav .fa{
     color: #ffe95c;
     padding-bottom: 30px;
 }
-@media (max-width:900px){
-    .more h1{
-        font-size: 30px;
-    }
-}
 
 @media (max-width:900px){
     *{
@@ -295,7 +290,7 @@ nav .fa{
         font-size: 13px;
     }
     .text-box h1{
-        font-size: 80px;
+        font-size: 60px;
     }
     .dropbtn{
         font-size: 13px;
