@@ -280,8 +280,16 @@ nav .fa{
     color: #ffe95c;
     padding-bottom: 30px;
 }
+@media (max-width:900px){
+    .more h1{
+        font-size: 40px;
+    }
+}
 
 @media (max-width:900px){
+    *{
+        overflow-x: hidden;
+    }
     
     .nav-links ul li a{
         font-size: 13px;
@@ -323,9 +331,7 @@ nav .fa{
 
 @media(max-width: 800px){
 
-    *{
-        overflow-x: hidden;
-    }
+    
     .ye{
         display: block;
     }
@@ -370,7 +376,7 @@ nav .fa{
 
 
 .lock-scroll {
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 
