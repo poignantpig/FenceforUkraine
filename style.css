@@ -719,15 +719,21 @@ nav .fa{
     .mission1-text p{
         font-size:20px;
     }
+    
+    .mission img{
+        width:200px;
+        margin-right: 10px;
+    }
+
+    .mission{
+        height: 200px;
+    }
+    .mission-text h1{
+        font-size: 35px;
+    }
+
+    .mission-text p{
+        font-size:20px;
+    }
+    
 }
-
-
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
- 
